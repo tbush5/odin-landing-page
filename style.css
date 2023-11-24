@@ -24,7 +24,7 @@ header {
 
 .pageLinks {
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 .logo {
@@ -45,6 +45,8 @@ header {
     padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 125px 0;
 }
 
 h1 {
@@ -54,7 +56,7 @@ h1 {
     margin: 0;
 }
 
-.main .subheading {
+.mainSubheading {
     font-size: 18px;
     color: #E5E7Eb;
     margin: 0;
@@ -62,7 +64,7 @@ h1 {
 
 .mainImage {
     width: 300px;
-    height: auto;
+    height: 150px;
 }
 
 button {
@@ -74,3 +76,33 @@ button {
 }
 
 /* Facts */
+
+.facts {
+    padding: 50px 0 125px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.factsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.factsImage {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+}
+
+.factsSubtext {
+    max-width: 150px;
+    text-align: center;
+    color: #1F2937;
+}
