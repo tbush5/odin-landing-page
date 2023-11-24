@@ -90,7 +90,7 @@ button {
     padding: 50px 0 125px 0;
 }
 
-h2 {
+.factsHeading {
     text-align: center;
     font-size: 36px;
     font-weight: extra-bold;
@@ -141,3 +141,32 @@ h2 {
     font-weight: bold;
     font-size: 18px;
 }
+
+/* call to action section */
+
+.callToAction {
+    background-color: #3882F6;
+    border-radius: 25px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px
+}
+
+.actionContainer {
+    padding: 25px;
+}
+
+.actionHeading,
+.actionText {
+    margin: 8px 0;
+    color: white;
+}
+
+.actionButton {
+    border: 2px solid white;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
