@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+header,
+section,
+footer {
+    padding: 0 100px;
+}
+
+.header,
+.main,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+.pageLinks {
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7Eb;
+    text-decoration: none;
+}
