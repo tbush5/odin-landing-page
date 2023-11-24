@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="dark">
       <div class="logo">Header Logo</div>
       <div class="pageLinks">
         <a href="" class="link">Header Link One</a>
@@ -16,16 +16,17 @@
       </div>
     </header>
 
-    <section class="main">
-      <div class="">
-        <h1>This website is Awesome</h1>
-        <p>
+    <section class="main dark">
+      <div>
+        <h1 class="main heading">This website is Awesome</h1>
+        <p class="main subheading">
           This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
+          It's a smaller font and the color is lower contrast.
         </p>
         <button>Sign Up</button>
       </div>
       <img
+        class="mainImage"
         src="./images/ComputerScreen.jpg"
         alt="A computer screen with code displayed on it."
       />
@@ -33,7 +34,7 @@
 
     <section class="facts">
       <h2>Some random information</h2>
-      <div>
+      <div class="facts container">
         <div>
           <img src="" alt="" />
           <p>This is some subtext under an illustration or image</p>
@@ -53,7 +54,7 @@
       </div>
     </section>
 
-    <section class="quote">
+    <section class="quote grey">
       <p>
         This is an inspiring quote or a testimonial from a customer. Maybe it's
         just filling up space, or maybe people will actuall read it. Who knows?
@@ -68,6 +69,6 @@
       <button>Sign up</button>
     </section>
 
-    <footer class="footer">Copyright @ The Odin Project 2021</footer>
+    <footer class="dark">Copyright @ The Odin Project 2021</footer>
   </body>
 </html>

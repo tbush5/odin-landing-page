@@ -1,26 +1,25 @@
+/* general */
+
 body {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
-header,
-section,
-footer {
-    padding: 0 100px;
-}
-
-.header,
-.main,
-.footer {
+.dark {
+    box-shadow: 0 0 0 100vmax #1F2937;
+    clip-path: inset(0 -100vmax);
     background-color: #1F2937;
     color: white;
 }
+
+/* header */
 
 header {
     display: flex;
     justify-content: space-between;
     padding-top: 16px;
     padding-bottom: 16px;
-    margin: 0;
+    margin: 0px;
 }
 
 .pageLinks {
@@ -38,3 +37,40 @@ header {
     color: #E5E7Eb;
     text-decoration: none;
 }
+
+/* main */
+
+.main {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.main .subheading {
+    font-size: 18px;
+    color: #E5E7Eb;
+    margin: 0;
+}
+
+.mainImage {
+    width: 300px;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: #3882F6;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+/* Facts */
