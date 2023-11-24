@@ -17,6 +17,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 16px;
     padding-bottom: 16px;
     margin: 0px;
@@ -30,6 +31,7 @@ header {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .link {
@@ -49,9 +51,17 @@ header {
     padding: 125px 0;
 }
 
+.mainContent {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #F9FAF8;
     margin: 0;
 }
@@ -63,8 +73,7 @@ h1 {
 }
 
 .mainImage {
-    width: 300px;
-    height: 150px;
+    width: 450px;
 }
 
 button {
@@ -105,4 +114,30 @@ h2 {
     max-width: 150px;
     text-align: center;
     color: #1F2937;
+}
+
+/* quote section */
+
+.grey {
+    box-shadow: 0 0 0 100vmax #E5E7EB;
+    clip-path: inset(0 -100vmax);
+    background-color: #E5E7EB;
+    color: white;
+    width: 750px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.speaker {
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
 }
